@@ -24,12 +24,12 @@ const handleSubmitSearch = (e) => {
       <section className=''>
         <form className=' max-w-md flex flex-row w-full justify-center text-white mx-auto' onSubmit={handleSubmitSearch}>
           <input className='outline-none w-full bg-black/60 border-2 border-green-500' type="text" id='newLocation' placeholder='Type a location ID...' />
-          <button className=' bg-green-400 border-2 border-green-500 text-white flex items-center gap-2 px-4  '>search<i className='bx bx-search' ></i></button>
+          <button className=' bg-green-400 border-2 border-green-500 text-white flex items-center gap-2 px-4 py-1  '>search<i className='bx bx-search' ></i></button>
         </form>
 
         {/* LOCATION INFO */}
         {/* location name */}
-        <h2 className='text-white text-2xl my-4 text-center'>{Dimension?.name}</h2>
+        <h2 className='text-white text-2xl my-4 text-center pt-24'>{Dimension?.name}</h2>
         <section className='text-white bg-black/60 border-2 border-green-500 flex justify-between px-6 p-2 gap-8 text-center'>
           {/* Dimension type, dimension name, residents number */}
           
