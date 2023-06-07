@@ -15,7 +15,7 @@ const handleSubmitSearch = (e) => {
  }
 
   return (
-    <section className='flex flex-col items-center  mx-auto bg-[url("./media/backgroundHeader.png")] pb-20 px-4'>
+    <section className='flex flex-col items-center  mx-auto bg-[url("https://i.imgur.com/E7uBsEi.png")] pb-20 px-4'>
 
       {/* SEARCH INPUT */}
       <div>

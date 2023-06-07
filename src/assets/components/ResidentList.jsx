@@ -9,7 +9,7 @@ const ResidentList = ({ residents }) => {
   const {inPageResidents, pages} = paginationLogic(currentPage, residents)
   
   return (
-    <div className='bg-[url("./media/backgroundPage.png")]'>
+    <div className='bg-[url("https://i.imgur.com/hts4AWC.png")]'>
       <div className="grid gap-8 grid-cols-[repeat(auto-fill,_280px)] justify-center max-w-5xl mx-auto py-6 px-4">
         {
           inPageResidents?.map((resident) => (
